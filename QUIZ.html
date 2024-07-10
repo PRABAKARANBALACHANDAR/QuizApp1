@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QUIZ.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="timer-container">
+        <div id="timer">Time left: 10:00</div>
+    </div>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+        <div class="pagination-controls">
+            <button onclick="showPrevPage()">Previous</button>
+            <button onclick="showNextPage()">Next</button>
+        </div>
+        <div id="submit-container">
+            <button onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+    <script src="QUIZ.js"></script>
+</body>
+</html>

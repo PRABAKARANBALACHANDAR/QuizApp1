@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Score</title>
+    <link rel="stylesheet" href="QUIZ.css">
+</head>
+<body>
+    <div class="score-container">
+        <h1>Your Score</h1>
+        <p id="score"></p>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const score = localStorage.getItem('quizScore');
+            const totalQuestions = localStorage.getItem('totalQuestions');
+            document.getElementById('score').innerText = `${score} / ${totalQuestions}`;
+        });
+    </script>
+</body>
+</html>

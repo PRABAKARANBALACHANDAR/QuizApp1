@@ -1,0 +1,117 @@
+[
+    {
+        "question": "What is the correct syntax to print a message in Python?",
+        "options": ["echo 'Hello, World!'", "console.log('Hello, World!')", "print('Hello, World!')", "printf('Hello, World!')"],
+        "correct": "print('Hello, World!')",
+        "type": "radio"
+    },
+    {
+        "question": "Which of the following are valid variable names in JavaScript?",
+        "options": ["2names", "_name", "first-name", "first_name"],
+        "correct": ["_name", "first_name"],
+        "type": "checkbox"
+    },
+    {
+        "question": "What is the output of 2 + 2 in JavaScript?",
+        "correct": "4",
+        "type": "text"
+    },
+    {
+        "question": "Which language is primarily used for web development?",
+        "options": ["Python", "Java", "HTML", "C++"],
+        "correct": "HTML",
+        "type": "dropdown"
+    },
+    {
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": ["<ol>", "<ul>", "<li>", "<list>"],
+        "correct": "<ul>",
+        "type": "radio"
+    },
+    {
+        "question": "Which of the following are JavaScript data types?",
+        "options": ["String", "Number", "Boolean", "All of the above"],
+        "correct": "All of the above",
+        "type": "radio"
+    },
+    {
+        "question": "What does CSS stand for?",
+        "options": ["Cascading Style Sheets", "Colorful Style Sheets", "Creative Style Sheets", "Computer Style Sheets"],
+        "correct": "Cascading Style Sheets",
+        "type": "radio"
+    },
+    {
+        "question": "Which of the following are semantic HTML elements?",
+        "options": ["<div>", "<header>", "<span>", "<footer>"],
+        "correct": ["<header>", "<footer>"],
+        "type": "checkbox"
+    },
+    {
+        "question": "What is the output of 'Hello' + ' ' + 'World' in JavaScript?",
+        "correct": "Hello World",
+        "type": "text"
+    },
+    {
+        "question": "Which property is used to change the background color in CSS?",
+        "options": ["color", "bgcolor", "background-color", "background"],
+        "correct": "background-color",
+        "type": "radio"
+    },
+    {
+        "question": "Which of the following is a JavaScript framework?",
+        "options": ["React", "Django", "Flask", "Ruby on Rails"],
+        "correct": "React",
+        "type": "radio"
+    },
+    {
+        "question": "How do you add a comment in a CSS file?",
+        "correct": "/* This is a comment */",
+        "type": "text"
+    },
+    {
+        "question": "Which of the following is a block-level element in HTML?",
+        "options": ["<span>", "<div>", "<a>", "<img>"],
+        "correct": "<div>",
+        "type": "radio"
+    },
+    {
+        "question": "What does SQL stand for?",
+        "options": ["Structured Query Language", "Simple Query Language", "Structured Question Language", "Short Query Language"],
+        "correct": "Structured Query Language",
+        "type": "radio"
+    },
+    {
+        "question": "Which of the following are CSS frameworks?",
+        "options": ["Bootstrap", "Foundation", "Bulma", "All of the above"],
+        "correct": "All of the above",
+        "type": "radio"
+    },
+    {
+        "question": "What is the purpose of the 'alt' attribute in an <img> tag?",
+        "options": ["To specify the URL of the image", "To specify alternate text for the image", "To style the image", "To specify the width of the image"],
+        "correct": "To specify alternate text for the image",
+        "type": "radio"
+    },
+    {
+        "question": "Which of the following are JavaScript loop structures?",
+        "options": ["for", "while", "do-while", "All of the above"],
+        "correct": "All of the above",
+        "type": "radio"
+    },
+    {
+        "question": "What is the default port number for HTTP?",
+        "correct": "80",
+        "type": "text"
+    },
+    {
+        "question": "Which of the following is a backend programming language?",
+        "options": ["HTML", "CSS", "JavaScript", "Python"],
+        "correct": "Python",
+        "type": "radio"
+    },
+    {
+        "question": "How do you define a function in JavaScript?",
+        "correct": "function myFunction() {}",
+        "type": "text"
+    }
+]
